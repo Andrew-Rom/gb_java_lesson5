@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println(isIsomorpheString());
+        System.out.println(isIsomorphicString());
 
     }
 
-    public static boolean isIsomorpheString() {
+    public static boolean isIsomorphicString() {
         Scanner in = new Scanner(System.in);
         String s1 = in.next();
         String s2 = in.next();
