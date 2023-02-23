@@ -1,13 +1,23 @@
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
+import java.util.TreeMap;
 
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println(isIsomorphicString());
+        //System.out.println(isIsomorphicString());
+
+    /*
+    Взять набор строк, например, "Мороз и солнце день чудесный Еще ты дремлешь друг прелестный Пора красавица проснись"
+    Написать метод, который отсортирует эти строки по длине с помощью TreeMap.
+    Строки с одинаковой длиной не должны “потеряться”.
+     */
+
+        sortByLength("Мороз и солнце день чудесный Еще ты дремлешь друг прелестный Пора красавица проснись");
 
     }
+
 
     public static boolean isIsomorphicString() {
         Scanner in = new Scanner(System.in);
@@ -31,4 +41,19 @@ public class Main {
             return false;
         }
     }
+
+    private static void sortByLength(String text) {
+        Map<String, Integer> map = new TreeMap<>();
+        int temp = 0;
+        for (String str : text.split(" ")) {
+            map.put(str, str.length());
+            if (str.length() > temp) temp = str.length();
+        }
+        for (int i = temp; i > 0; i--) {
+            for (Map.Entry<String, Integer> entry : map.entrySet()) {
+                if (entry.getValue() == i) System.out.println(entry.getKey());
+            }
+        }
+    }
+
 }

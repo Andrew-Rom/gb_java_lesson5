@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28598699-4e7a-4b00-bc95-e2bc70a1f506" name="Changes" comment="Git init">
+    <list default="true" id="28598699-4e7a-4b00-bc95-e2bc70a1f506" name="Changes" comment="Lesson 5 task1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -47,7 +47,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677160837494</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Lesson 5 task1">
+      <created>1677174956998</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677174956999</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Lesson 5 task1">
+      <created>1677174992784</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677174992784</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -63,6 +77,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Git init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Git init" />
+    <MESSAGE value="Lesson 5 task1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 5 task1" />
   </component>
 </project>
